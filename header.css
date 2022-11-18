@@ -1,0 +1,89 @@
+body{
+    background-color: #181631;
+}
+
+.header{
+    
+    display: flex;
+    background-color: #D9D9D9;
+    height: 60px;
+    margin-top: 50px;
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+h1{
+    margin-left: 50px;
+    margin-top: 5px;
+    text-shadow: 1px 1px #181631;
+    
+}
+
+
+.box{
+    background-color: #2E284D;
+    color: white;
+    font-size: 24px;
+    width: 700px;
+    padding: 30px;
+    box-shadow: 2px 2px white;
+    margin-top: 100px;
+    border-radius: 30px;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.tag{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 350px;
+    width: 650px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+.box1{
+    display: flex;
+    background-color: #181631;
+    margin-top: 5px;
+    justify-content: space-around;
+    width : 80px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.box1:hover{
+    box-shadow: 2px 2px 5px 3px grey;
+}
+
+.box2{
+    display: flex;
+    background-color: #181631;
+    margin-top: 5px;
+    justify-content: space-around;
+    width : 170px;
+    height: 40px;
+    border-radius: 10px;
+    }
+.box2:hover{
+    box-shadow: 2px 2px 5px 3px grey;
+}
+p1{
+    color: white;
+    margin-top: 10px;
+}
+
+
+a:link{
+    color: white;
+}
+a:hover{
+    color: white;
+    
+}
+a:visited{
+    color: white;
+}
